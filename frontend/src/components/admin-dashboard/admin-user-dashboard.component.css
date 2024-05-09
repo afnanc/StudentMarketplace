@@ -1,0 +1,90 @@
+.admin-dashboard {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+.admin-dashboard h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.admin-dashboard input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.admin-dashboard table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.admin-dashboard th, 
+.admin-dashboard td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.admin-dashboard th {
+  background-color: #f4f4f4;
+}
+
+.admin-dashboard button {
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  margin-right: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.admin-dashboard .btn-delete {
+  background-color: #c82333;
+}
+
+.admin-dashboard .btn-delete:hover {
+  background-color: #981623; 
+}
+
+.admin-dashboard .btn-view-profile {
+  background-color: #1028EF;
+}
+
+.admin-dashboard .btn-view-profile:hover {
+  background-color: #0e1ead;
+}
+
+.admin-dashboard .pagination {
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.admin-dashboard .pagination button {
+  background-color: #6c757d;
+  margin: 0 5px;
+}
+
+.admin-dashboard .pagination button:hover {
+  background-color: #5a6268;
+}
+
+.admin-dashboard .pagination button.active {
+  background-color: #ffc107;
+}
+
+.admin-dashboard .total-users {
+  text-align: right;
+  margin-top: 10px;
+  color: #666;
+}
+
+  
+  

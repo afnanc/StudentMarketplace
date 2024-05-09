@@ -1,0 +1,18 @@
+.breadcrumb-container {
+    margin-bottom: 1rem;
+  }
+  
+  .breadcrumb-button {
+    background: none;
+    border: none;
+    color: blue; 
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0;
+  }
+  
+  .breadcrumb-button:hover {
+    text-decoration: none; 
+  }
+  

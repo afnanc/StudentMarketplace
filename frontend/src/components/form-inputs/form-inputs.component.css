@@ -1,0 +1,40 @@
+.group {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.group label {
+  color: #888;
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 300ms ease all;
+}
+
+.group input {
+  background: none;
+  background-color: white;
+  color: gray;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid gray;
+  margin: 25px 0;
+}
+
+.group input:focus {
+  outline: none;
+}
+
+.group input:focus ~ label,
+.group input:not(:placeholder-shown) ~ label {
+  top: -14px;
+  font-size: 14px;
+  color: black;
+}

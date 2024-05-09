@@ -1,0 +1,33 @@
+
+.sidebar {
+  background-color:#d0e1f2; 
+  padding: 20px;
+  height: 100vh; 
+}
+.sidebar h3 {
+  margin-bottom: 20px;
+}
+.sidebar .list-group-item {
+  background-color: transparent;
+
+}
+
+#box:hover {
+  transform: scale(1.1); 
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-view-owner {
+  background-color: #1028EF;
+  color: white;
+}
+
+.btn-view-owner:hover {
+  background-color: #0e1ead; 
+  color: white;
+}

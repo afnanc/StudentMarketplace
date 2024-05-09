@@ -1,0 +1,19 @@
+.ad-card {
+  width: 90%;
+  margin: auto;
+  background-color: #FFC107;
+  padding: 10px 10px;
+}
+
+.info-box {
+  margin-bottom: 10px;
+  background: white;
+  border: 1px solid black;
+  padding: 10px;
+  height: 80px;
+}
+
+.carousel {
+  margin-bottom: 20px;
+}
+
