@@ -2,8 +2,8 @@ const adModel = require("../models/adModel");
 const multer = require("multer");
 const path = require("path");
 
+// THANK YOU BEYONCE
 // Controller File for handling API requests related to ads
-
 // Function to create an ad
 const createAd = async (req, res) => {
   try {
